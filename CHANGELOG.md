@@ -1,3 +1,44 @@
+v1.2.89
+----------
+ * Add burst sms handler / sender (Australia / New Zealand)
+
+v1.2.88
+----------
+ * set expiration of sent sets in redis
+
+v1.2.87
+----------
+ * update line channel to use v2 of API
+ * add messangi channel
+
+v1.2.86
+----------
+ * remove unacked, that's part of celery's job
+
+v1.2.85
+----------
+ * update celery queuing to new kombu format
+
+v1.2.84
+----------
+ * write UUID fields for incoming messages
+
+v1.2.83
+----------
+ * implement unified webhook endpoint for whatsapp
+
+v1.2.82
+----------
+ * Implement new WhatsApp API for sending
+
+v1.2.81 
+----------
+ * Honor x-forwarded-path header for twilio signatures
+
+v1.2.80
+----------
+ * Make sure the messageid is unique for multiple part messages for Dartmedia
+
 v1.2.79
 ----------
  * Decode &amp; in Twitter message bodies
